@@ -1,0 +1,4 @@
+/* This is being included in the bundle correctly */
+html {
+    background-color: aqua;
+}

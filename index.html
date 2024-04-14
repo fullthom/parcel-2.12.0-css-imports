@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Parcel Test</title>
+    <!-- This works, the css is inlined -->
+    <style>
+      @import "./index.css";
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <!-- This also works, the react app is loaded. 
+        The CSS imported from it does not load however. -->
+    <script type="module">
+      import "./app.tsx";
+    </script>
+  </body>
+</html>
